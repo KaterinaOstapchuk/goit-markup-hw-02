@@ -1,0 +1,268 @@
+:root{
+    --main-clr: #212121;
+    --text-clr: #757575;
+    --accent-clr: #2196F3;
+
+}
+
+body {
+    font-family: 'Roboto';
+    color: var(--main-clr);
+ 
+}
+.page-logo{
+    text-decoration: none;
+}
+.logocolor{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-clr) 
+}
+.logo{
+font-family: 'Raleway';
+color: #000000; 
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+letter-spacing: 0.03em;
+
+}
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--main-clr);
+    text-decoration: none;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--main-clr);
+    text-decoration: none;
+    
+}
+.current{
+color: var(--accent-clr);
+}
+
+.link-adress{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,2;
+  letter-spacing: 0.02em;
+
+  color: var(--text-clr);  
+  text-decoration: none;
+}
+
+.list-item :hover,:focus{
+    color:var(--accent-clr)
+}
+.list-item-adress :hover,:focus{
+    color:var(--accent-clr)
+}
+.list-item {
+    list-style: none;
+}
+.list-item-adress {
+    list-style: none;
+}
+.box{
+    background: #2F303A;
+}
+.list-section{
+    list-style: none;
+}
+
+.main-section{
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1,36;
+/* or 136% */
+
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+
+   color: #FFFFFF;
+}
+.button{
+    background-color: var(--accent-clr);
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.button:hover,:focus{
+    background-color: #188CE8;
+    color: #FFFFFF;
+
+}
+.button-portfolio{
+
+   font-weight: 500;
+   font-size: 1,2;
+   line-height: 1,63;
+
+
+   text-align: center;
+
+
+   color: var(--main-clr);
+   cursor: pointer;
+
+
+
+
+
+}
+
+.button-portfolio:hover,:focus{ 
+    background-color: var(--accent-clr);
+    color: #FFFFFF;
+
+
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.list-section-item{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-clr);
+    
+}
+  .list-section-text{
+    font-size: 14px;
+    line-height: 8,1;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--text-clr);
+   
+
+}
+.caption{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-clr);
+ }
+.list-caption-item{
+    list-style: none;
+}
+.caption{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-clr);
+
+}
+.section-comand{
+    background: #F5F4FA;
+}
+.list-caption{
+    list-style: none;
+    
+}
+.list-caption-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,2;
+
+
+    color: var(--main-clr);
+}
+.list-caption-image{
+    background-color: #FFFFFF;
+}
+.list-caption-subtitle{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1,2;
+
+}
+.footer{
+    background-color: #2F303A;
+
+}
+.address{
+    font-size: 14px;
+    line-height: 8,1;
+/* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;                                 
+
+
+}
+.link-adress-footer{
+    color: #FFFFFF99;
+    text-decoration: ;
+   
+
+}
+.link-adress-footer:hover{                                                                       
+ color: #2196F3;
+}
+.list-adress-footer{
+    list-style: none;
+}
+.list-btn-portfolio{
+    list-style: none;
+}
+.list-caption-portfolio{
+    list-style: none;
+}
+.list-section-portfolio{
+
+}
+.title-portfolio{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 8,6;
+/* identical to box height, or 200% */
+
+   
+
+     color: var(--main-clr);
+}
+.subtitle-portfolio{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 8,5;
+/* identical to box height, or 188% */
+
+    
+    color: var(--text-clr);
+}
